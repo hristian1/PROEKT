@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MMA ARENA – Контакт</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+    <header>
+        <div class="logo-area">
+            <h1>MMA ARENA</h1>
+            <h2>Свържете се с нашия екип за поддръжка</h2>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="products.html">Продукти</a></li>
+                <li><a href="training.html">Тренировки и ръководства</a></li>
+                <li><a href="about.html">За нас</a></li>
+                <li><a href="contact.html" class="active">Контакт</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="contact-heading">
+            <h3 id="contact-heading">Свържете се с нас</h3>
+            <p>
+                Имате въпроси за размери, доставка или поръчки за зали? Изпратете ни
+                съобщение и нашият екип ще ви отговори в рамките на 1&ndash;2 работни дни.
+            </p>
+
+          
+            <form class="contact-form" action="#" method="post">
+                <div class="form-row">
+                    <label for="name">Име:</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-row">
+                    <label for="email">Имейл:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-row">
+                    <label for="message">Съобщение:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Изпрати съобщението</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MMA ARENA &ndash; Контактен център.</p>
+        <a href="#top" class="back-to-top">Обратно в началото &uarr;</a>
+    </footer>
+</body>
+</html>
