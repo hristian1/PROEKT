@@ -28,10 +28,22 @@ header {
     padding: 1rem 5vw 0.5rem;
 }
 
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.site-logo {
+    height: 64px;
+    width: auto;
+}
+
 .logo-area h1 {
     margin: 0;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+
 }
 
 .logo-area h2 {
